@@ -1,5 +1,5 @@
 {
-  "name": "old-driver",
+  "name": "old-driver-srv",
   "version": "1.0.0",
   "description": "nodejs server for fuli",
   "main": "index.js",
@@ -9,17 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wushq5/old-driver.git"
+    "url": "git+https://github.com/wushq5/old-driver-srv.git"
   },
   "author": "rcrab",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wushq5/old-driver/issues"
+    "url": "https://github.com/wushq5/old-driver-srv/issues"
   },
-  "homepage": "https://github.com/wushq5/old-driver#readme",
+  "homepage": "https://github.com/wushq5/old-driver-srv#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "debug": "^2.6.8",
     "express": "^4.15.3",
-    "mongoose": "^4.10.5"
+    "express-formidable": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "moment": "^2.18.1",
+    "mongoose": "^4.10.5",
+    "path": "^0.12.7"
   }
 }

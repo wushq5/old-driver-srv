@@ -1,5 +1,7 @@
 'use strict';
 
+let fs = require('fs');
+let path = require('path');
 let mongoose = require('mongoose');
 let Teacher = require('../models/teacher');
 let Homework = require('../models/homework');
@@ -16,12 +18,55 @@ const TeacherCtrl = {
 	},
 
 	createOneTeacher: (req, res) => {
-		let newTeacher = new Teacher(req.body);
-		newTeacher.save((err, teacher) => {
+		let name = req.fields.name;
+	  let desc = req.fields.desc;
+	  let birthday = req.fields.birthday;
+	  let height = req.fields.height;
+	  let weight = req.fields.weight;
+	  let bwh = req.fields.bwh;
+	  let photo = req.files.photo.path.split(path.sep).pop();
+
+	  try {
+	  	if (!(name.length >= 1 && name.length <= 10)) {
+	  		throw new Error('name\'s length ranged from 1 to 10');
+	  	}
+	  	if (!desc) {
+	  		throw new Error('desc is required');
+	  	}
+	  	if (!req.files.photo.name) {
+	      throw new Error('photo is required');
+	    }
+	  } catch (e) {
+	  	fs.unlink(req.files.photo.path);
+	  	res.send(e.message);
+	  	return;
+	  }
+
+		let newTeacher = new Teacher({
+	  	name: name,
+	  	desc: desc,
+	  	birthday: birthday,
+	  	height: height,
+	  	weight: weight,
+	  	bwh: bwh,
+	  	photo: photo
+	  });
+		
+		Teacher.findOne({name: name}, (err, doc) => {
 			if (err) {
 				res.send(err);
+			}
+
+			if (!doc) {
+				newTeacher.save((err, teacher) => {
+					if (err) {
+						res.send(err);
+					} else {
+						res.json(teacher);
+					}
+				});
 			} else {
-				res.json(teacher);
+				res.send(`Teacher ${name} already exists`);
 			}
 		});
 	},

@@ -6,7 +6,7 @@ let Schema = mongoose.Schema;
 let TeacherSchema = new Schema({
 	name: {type: String, required: true, index: true },
 	photo: {type: String },
-	description: {type: String },
+	desc: {type: String },
 	birthday: {type: Date },
 	height: {type: Number },
 	weight: {type: Number },

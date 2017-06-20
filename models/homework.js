@@ -6,9 +6,9 @@ let Schema = mongoose.Schema;
 let HomeworkSchema = new Schema({
 	id: {type: String, required: true, index: true},
 	name: {type: String},
-	description: {type: String},
+	desc: {type: String},
 	cover: {type: String},
-	teacherId: {type: String}
+	teacher_id: {type: String}
 });
 
 module.exports = mongoose.model('Homework', HomeworkSchema);

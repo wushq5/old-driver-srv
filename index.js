@@ -4,13 +4,14 @@ let path = require('path');
 let express = require('express');
 let bodyParser = require('body-parser');
 let mongoose = require('mongoose');
-let formidable = require('express-formidable');
+
 let routes = require('./routes');
+let config = require('./config');
+
 let app = express();
 let port = process.env.PORT || 3000;
 
-
-let db = mongoose.connect('mongodb://localhost:27017/old-driver');
+let db = mongoose.connect(config.database);
 db.connection.on("error", (error) => {
 	console.log("Database connect error: " + error);
 });
@@ -18,24 +19,27 @@ db.connection.on("open", () => {
 	console.log("Database connect success!");
 });
 
-// deal with img post
-app.use(formidable({
-  uploadDir: path.join(__dirname, 'upload'),
-  keepExtensions: true
+// set assets path, GET /assets/demo.png
+app.use('/assets', express.static('upload', {
+  setHeaders: function(res, path) {
+    res.type("jpg");
+  }
 }));
 
 app.use(bodyParser.urlencoded({extended: true })); 
 app.use(bodyParser.json());
 
-//设置跨域访问
-app.all('*', (req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Content-Type,X-Requested-With");
-  res.header("Access-Control-Allow-Methods","PUT,POST,GET,DELETE,OPTIONS");
-  res.header("X-Powered-By",' 3.2.1')
-  res.header("Content-Type", "application/json;charset=utf-8");
+
+// access-control
+app.use((req, res, next) => {
+  res.set("Access-Control-Allow-Origin", "*");
+  res.set("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization");
+  res.set("Access-Control-Allow-Methods","PUT,POST,GET,DELETE,OPTIONS");
+  res.set("X-Powered-By",' 3.2.1');
+  res.set("Content-Type", "application/json;charset=utf-8");
   next();
 });
+
 
 routes(app);
 

@@ -3,12 +3,13 @@
 let express = require('express');
 let router = express.Router();
 let teachersCtrl = require('../controllers/teachersCtrl');
+let upload = require('../common/multer');
 
 // GET /teachers  get all teachers
 router.get('/', teachersCtrl.getAllTeachers);
 
 // POST /teachers  new a teacher
-router.post('/', teachersCtrl.createOneTeacher);
+router.post('/', upload.single('photo'), teachersCtrl.createOneTeacher);
 
 // GET /teachers/:teacherId get specified teacher
 router.get('/:teacherId', teachersCtrl.getOneTeacher);
@@ -25,8 +26,8 @@ router.get('/:teacherId/homeworks', teachersCtrl.getHomeworksByTeacherId);
 // GET /teachers/:teacherId/homeworks/:homeworkId  get specified homework of the teacher
 router.get('/:teacherId/homeworks/:homeworkId', teachersCtrl.getHomeworkByHomeworkId);
 
-// POST /teachers/:teacherId/homeworks  new a homework of the teacher
-router.post('/:teacherId/homeworks', teachersCtrl.createOneHomework);
+// POST /teachers/homeworks  new a homework
+router.post('/homeworks', teachersCtrl.createOneHomework);
 
 // DELETE /teachers/:teacherId/homeworks  delete all homeworks of the teacher
 router.delete('/:teacherId/homeworks', teachersCtrl.deleteAllHomeworksByTeacherId);

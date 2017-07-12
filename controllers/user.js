@@ -1,7 +1,9 @@
 'use strict';
 
-let mongoose = require('mongoose');
-let User = require('../models/user');
+const mongoose = require('mongoose');
+const jwt = require('jsonwebtoken');
+const User = require('../models/user');
+const config = require('../common/config');
 
 const UserCtrl = {
 	createUser: (req, res) => {
@@ -22,14 +24,14 @@ const UserCtrl = {
 		}
 	},
 
-	createToken: (req, res) => {
+	signIn: (req, res) => {
 		User.findOne({name: req.body.name}, (err, user) => {
 			if (err) {
 	      return res.send(err);
 	    }
 
 	    if (!user) {
-	    	res.json({status: false, msg: `User ${req.body.name} does not exist!`});
+	    	res.json({status: false, msg: `User '${req.body.name}' does not exist!`});
 	    } else {
 	    	// check password
 				user.comparePassword(req.body.password, (err, isMatch) => {

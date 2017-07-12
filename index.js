@@ -4,9 +4,10 @@ let path = require('path');
 let express = require('express');
 let bodyParser = require('body-parser');
 let mongoose = require('mongoose');
+let passport = require('passport');
 
 let routes = require('./routes');
-let config = require('./config');
+let config = require('./common/config');
 
 let app = express();
 let port = process.env.PORT || 3000;
@@ -18,6 +19,9 @@ db.connection.on("error", (error) => {
 db.connection.on("open", () => {
 	console.log("Database connect success!");
 });
+
+// init passport
+app.use(passport.initialize());
 
 // set assets path, GET /assets/demo.png
 app.use('/assets', express.static('upload', {

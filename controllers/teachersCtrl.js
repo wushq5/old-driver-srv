@@ -5,7 +5,7 @@ let path = require('path');
 let mongoose = require('mongoose');
 let Teacher = require('../models/teacher');
 let Homework = require('../models/homework');
-let config = require('../config');
+let config = require('../common/config');
 
 const SERVER_IP = config.server;
 
@@ -89,11 +89,11 @@ const TeacherCtrl = {
 	},
 
 	updateOneTeacher: (req, res) => {
-		Teacher.findOneAndUpdate(req.params.teacherId, req.body, {new: true }, (err, teacher) => {
+		Teacher.update({_id: req.params.teacherId}, req.body, (err, raw) => {
 			if (err) {
 				res.send(err);
 			} else {
-				res.json(teacher);
+				res.json({status: true, msg: 'success'});
 			}
 		});
 	},
@@ -137,12 +137,12 @@ const TeacherCtrl = {
 	},
 
 	createOneHomework: (req, res) => {
-		let id = req.fields.id;
-		let name = req.fields.name;
-		let teacherName = req.fields.teacher_name;
-		let teacherId = req.fields.teacher_id;
-	  let desc = req.fields.desc;
-	  let cover = req.files.cover.path.split(path.sep).pop();
+		let id = req.body.id;
+		let name = req.body.name;
+		let teacherName = req.body.teacher_name;
+		let teacherId = req.body.teacher_id;
+	  let desc = req.body.desc;
+	  let cover = req.file.path.split(path.sep).pop();
 
 	  try {
 	  	if (!(id.length >= 1 && id.length <= 10)) {
@@ -158,7 +158,7 @@ const TeacherCtrl = {
 	      throw new Error('cover is required');
 	    }
 	  } catch (e) {
-	  	fs.unlink(req.files.cover.path);
+	  	fs.unlink(req.file.path);
 	  	res.send(e.message);
 	  	return;
 	  }
@@ -174,21 +174,21 @@ const TeacherCtrl = {
 		
 		Homework.findOne({id}, (err, doc) => {
 			if (err) {
-				fs.unlink(req.files.cover.path);
+				fs.unlink(req.file.path);
 				res.send(err);
 			}
 
 			if (!doc) {
 				newHomework.save((err, homework) => {
 					if (err) {
-						fs.unlink(req.files.cover.path);
+						fs.unlink(req.file.path);
 						res.send(err);
 					} else {
 						res.json(homework);
 					}
 				});
 			} else {
-				fs.unlink(req.files.cover.path);
+				fs.unlink(req.file.path);
 				res.send(`Homework ${id} already exists`);
 			}
 		});

@@ -4,7 +4,7 @@
   "description": "nodejs server for fuli",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "pm2 start index.js --name old-driver",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

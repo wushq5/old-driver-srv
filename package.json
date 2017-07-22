@@ -4,7 +4,8 @@
   "description": "nodejs server for fuli",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --name old-driver",
+    "dev": "node index.js",
+    "start": "NODE_ENV=production pm2 start index.js --name old-driver",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.2",
+    "config-lite": "^2.0.0",
     "debug": "^2.6.8",
     "express": "^4.15.3",
     "fs": "^0.0.1-security",

@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 const jwt = require('jsonwebtoken');
 const User = require('../models/user');
-const config = require('../common/config');
+const config = require('config-lite')(__dirname);
 
 const UserCtrl = {
 	createUser: (req, res) => {

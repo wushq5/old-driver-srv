@@ -5,7 +5,7 @@ let path = require('path');
 let mongoose = require('mongoose');
 let Teacher = require('../models/teacher');
 let Homework = require('../models/homework');
-let config = require('../common/config');
+let config = require('config-lite')(__dirname);
 
 const SERVER_IP = config.server;
 

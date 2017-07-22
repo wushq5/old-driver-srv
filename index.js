@@ -7,7 +7,7 @@ let mongoose = require('mongoose');
 let passport = require('passport');
 
 let routes = require('./routes');
-let config = require('./common/config');
+let config = require('config-lite')(__dirname);
 
 let app = express();
 let port = process.env.PORT || 3000;

@@ -10,7 +10,7 @@ let routes = require('./routes');
 let config = require('config-lite')(__dirname);
 
 let app = express();
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || config.port;
 
 let db = mongoose.connect(config.database);
 db.connection.on("error", (error) => {

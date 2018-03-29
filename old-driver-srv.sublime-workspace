@@ -1,0 +1,988 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cla",
+				"classList"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"toa",
+				"toast"
+			],
+			[
+				"dona",
+				"donate1s"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"bo",
+				"bold"
+			],
+			[
+				"tex",
+				"text-shadow"
+			],
+			[
+				"te",
+				"teacher"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"home",
+				"homework	(teacher.vue)"
+			],
+			[
+				"show",
+				"showSidebar"
+			],
+			[
+				"map",
+				"mapState"
+			],
+			[
+				"menu",
+				"menuShow"
+			],
+			[
+				"com",
+				"components"
+			],
+			[
+				"inli",
+				"inline"
+			],
+			[
+				"item",
+				"align-items"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"ex",
+				"export	(Home.vue)"
+			],
+			[
+				"icon",
+				"iconfont"
+			],
+			[
+				"s",
+				"styles/"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"fle",
+				"flex"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"ma",
+				"margin-top	(Favourite.vue)"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"for",
+				"forceUpdate"
+			],
+			[
+				"conso",
+				"console.log"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"comm",
+				"commit	(http.js)"
+			],
+			[
+				"sto",
+				"store"
+			],
+			[
+				"na",
+				"navIndex"
+			],
+			[
+				"m",
+				"modules/"
+			],
+			[
+				"def",
+				"default	(http.js)"
+			],
+			[
+				"defa",
+				"default	(index.js)"
+			],
+			[
+				"i",
+				"index.js"
+			],
+			[
+				"sec",
+				"secondScroll"
+			],
+			[
+				"fir",
+				"firstScroll"
+			],
+			[
+				"cu",
+				"culumnIndex"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"time",
+				"timeScroll"
+			],
+			[
+				"da",
+				"dateScroll"
+			],
+			[
+				"tim",
+				"timeStr"
+			],
+			[
+				"mp",
+				"mpTime"
+			],
+			[
+				"up",
+				"updateSecondColumn"
+			],
+			[
+				"conta",
+				"container"
+			],
+			[
+				"pro",
+				"prodTypeList"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"list",
+				"list_display	statement"
+			],
+			[
+				"art",
+				"ArticleAdmin	class"
+			],
+			[
+				"Mode",
+				"ModelAdmin	class"
+			],
+			[
+				"a",
+				"article_id"
+			],
+			[
+				"va",
+				"value	Attr"
+			],
+			[
+				"ar",
+				"article.content	(article_page.html)"
+			],
+			[
+				"ed",
+				"edit_page	(views.py)"
+			],
+			[
+				"name",
+				"name	param"
+			],
+			[
+				"edit_a",
+				"edit_action	function"
+			],
+			[
+				"PO",
+				"POST"
+			],
+			[
+				"vie",
+				"views"
+			],
+			[
+				"edi",
+				"edit_page"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"articl",
+				"article_page	(views.py)"
+			],
+			[
+				"nam",
+				"namespace	param"
+			],
+			[
+				"at",
+				"article_page	function"
+			],
+			[
+				"ren",
+				"render	function"
+			],
+			[
+				"re",
+				"register	function"
+			],
+			[
+				"ad",
+				"admin"
+			],
+			[
+				"mo",
+				"models	module"
+			],
+			[
+				"max",
+				"max_length"
+			],
+			[
+				"fl",
+				"flex-start"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"h",
+				"href	(head.jade)"
+			],
+			[
+				"po",
+				"isPointInRange( node: Node, offset: unsigned long ): boolean	Range"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"is",
+				"isSecretAuth"
+			],
+			[
+				"oah",
+				"oauthData"
+			],
+			[
+				"fil",
+				"file"
+			],
+			[
+				"ut",
+				"utf-8	(html_outputer.py)"
+			],
+			[
+				"outpu",
+				"outputToFile	(fileIO.js)"
+			],
+			[
+				"app",
+				"appendData	(fileIO.js)"
+			],
+			[
+				"dat",
+				"datas"
+			],
+			[
+				"cons",
+				"constructor	(downloader.js)"
+			],
+			[
+				"uncr",
+				"uncarwUrls	(url_manager.js)"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"conte",
+				"content"
+			],
+			[
+				"console",
+				"console.log	(crawler.js)"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"new",
+				"newData"
+			],
+			[
+				"ne",
+				"newUrls"
+			],
+			[
+				"pa",
+				"parse	$.parseXML()"
+			],
+			[
+				"getN",
+				"getNewContent"
+			],
+			[
+				"getA",
+				"getPageAsync	(promise_crawler.js)"
+			],
+			[
+				"dw",
+				"downloader"
+			],
+			[
+				"const",
+				"constructor	(url_manager.js)"
+			],
+			[
+				"consol",
+				"console.log	(crawler.js)"
+			],
+			[
+				"has",
+				"hasUncrawUrls	(url_manager.js)"
+			],
+			[
+				"en",
+				"entryURL"
+			],
+			[
+				"addU",
+				"addUncrawUrl	(url_manager.js)"
+			],
+			[
+				"url",
+				"urlManager"
+			],
+			[
+				"newU",
+				"newUrl"
+			],
+			[
+				"video",
+				"video"
+			],
+			[
+				"cha",
+				"chapterTitle"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"chap",
+				"chapterData"
+			],
+			[
+				"vide",
+				"videoTitle"
+			],
+			[
+				"vi",
+				"video"
+			],
+			[
+				"ea",
+				"each	.each()"
+			],
+			[
+				"chapter",
+				"chapterTitle"
+			],
+			[
+				"each",
+				"each	$.each()"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"htm",
+				"html"
+			],
+			[
+				"get",
+				"get	.get()"
+			],
+			[
+				"oau",
+				"oauthData"
+			],
+			[
+				"current",
+				"currentTab	(main.js)"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"mai",
+				"margin"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"change",
+				"change	(app.js)"
+			],
+			[
+				"me",
+				"mediator"
+			],
+			[
+				"inner",
+				"innerArgs"
+			],
+			[
+				"www",
+				"www.webankcdn.net	(mixin.js)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "controllers/teachersCtrl.js",
+			"settings":
+			{
+				"buffer_size": 4590,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 1320,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config/production.js",
+			"settings":
+			{
+				"buffer_size": 231,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "pac",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 480.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/proj/old-driver-srv",
+		"/D/proj/old-driver-srv/config",
+		"/D/proj/old-driver-srv/controllers"
+	],
+	"file_history":
+	[
+		"/D/proj/old-driver-adm/package.json",
+		"/D/proj/old-driver-srv/package.json",
+		"/D/proj/old-driver-mobile/npm-debug.log",
+		"/D/proj/old-driver-mobile/src/components/teacher.vue",
+		"/D/proj/old-driver-mobile/src/components/comps/sidebar.vue",
+		"/D/proj/old-driver-mobile/src/components/comps/header.vue",
+		"/D/proj/old-driver-mobile/src/components/homework.vue",
+		"/D/proj/old-driver-mobile/dist/index.html",
+		"/D/proj/old-driver-mobile/src/main.js",
+		"/D/proj/old-driver-mobile/src/components/about.vue",
+		"/D/proj/old-driver-mobile/config/index.js",
+		"/D/proj/old-driver-mobile/build/webpack.base.conf.js",
+		"/D/proj/old-driver-mobile/build/webpack.prod.conf.js",
+		"/D/proj/old-driver-mobile/src/store/index.js",
+		"/D/proj/old-driver-mobile/src/router/index.js",
+		"/D/proj/old-driver-mobile/src/styles/common.css",
+		"/D/proj/old-driver-mobile/src/styles/reset.css",
+		"/D/proj/old-driver-mobile/package.json",
+		"/D/proj/old-driver-mobile/src/components/home.vue",
+		"/D/proj/old-driver-mobile/index.html",
+		"/D/proj/old-driver-mobile/src/styles/iconfont.css",
+		"/D/proj/old-driver-mobile/src/App.vue",
+		"/D/proj/old-driver-mobile/src/store/mutation-types.js",
+		"/D/proj/old-driver-mobile/src/components/Home.vue",
+		"/D/proj/old-driver-mobile/src/components/UploadTeacher.vue",
+		"/D/proj/old-driver-mobile/src/components/comps/navMenu.vue",
+		"/D/proj/old-driver-mobile/old-driver-fed.sublime-project",
+		"/D/proj/old-driver-fed/index.html",
+		"/D/proj/old-driver-fed/src/components/Home.vue",
+		"/D/proj/old-driver-fed/src/main.js",
+		"/D/proj/old-driver-fed/src/components/Favourite.vue",
+		"/D/proj/old-driver-fed/src/styles/reset.css",
+		"/D/proj/old-driver-fed/src/styles/iconfont.css",
+		"/D/proj/old-driver-fed/src/reset.css",
+		"/C/Users/树强/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/树强/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/树强/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/Code/vue/router-demo/app.js",
+		"/D/新建文件夹/css3-mobile-slider-menu/css/normalize.css",
+		"/D/proj/old-driver-fed/dist/index.html",
+		"/D/proj/old-driver-fed/src/components/UploadHomework.vue",
+		"/D/proj/old-driver-fed/src/components/UploadTeacher.vue",
+		"/C/Users/树强/Desktop/index.html",
+		"/D/proj/old-driver-fed/src/components/UpdateTeacher.vue",
+		"/D/proj/old-driver-fed/src/service/cgiService.js",
+		"/D/proj/old-driver-fed/src/service/httpService.js",
+		"/D/proj/old-driver-fed/src/components/SignIn.vue",
+		"/D/proj/old-driver-fed/src/components/SignUp.vue",
+		"/D/proj/old-driver-fed/src/components/Teacher.vue",
+		"/D/proj/old-driver-fed/src/store/index.js",
+		"/D/Code/nodejs/myblog/config/default.js",
+		"/D/Code/nodejs/myblog/lib/mongo.js",
+		"/D/Code/nodejs/myblog/models/comments.js",
+		"/D/proj/old-driver-fed/dist/static/js/app.50f0f521d9bead5d874d.js",
+		"/D/Code/nodejs/myblog/models/posts.js",
+		"/D/proj/old-driver-fed/package.json",
+		"/D/proj/old-driver-fed/build/dev-server.js",
+		"/D/proj/old-driver-fed/build/webpack.dev.conf.js",
+		"/D/proj/old-driver-fed/src/components/Hello.vue",
+		"/D/proj/old-driver-fed/src/App.vue",
+		"/D/proj/old-driver/package.json",
+		"/D/Code/nodejs/REST/package.json",
+		"/D/proj/old-driver/README.md",
+		"/D/Code/nodejs/myblog/package.json",
+		"/D/Code/nodejs/myblog/views/error.ejs",
+		"/D/Code/nodejs/myblog/views/components/post-content.ejs",
+		"/D/Code/nodejs/myblog/views/posts.ejs",
+		"/D/Code/nodejs/myblog/routes/posts.js",
+		"/D/Code/nodejs/myblog/views/edit.ejs",
+		"/D/Code/nodejs/myblog/views/create.ejs",
+		"/D/Code/nodejs/myblog/routes/signin.js",
+		"/D/Code/nodejs/myblog/views/components/comments.ejs",
+		"/D/Code/nodejs/myblog/views/post.ejs",
+		"/D/Code/nodejs/myblog/views/header.ejs",
+		"/D/Code/nodejs/myblog/views/components/nav-setting.ejs",
+		"/D/Code/nodejs/myblog/index.js",
+		"/D/Code/nodejs/myblog/routes/signup.js",
+		"/D/Code/nodejs/myblog/routes/signout.js",
+		"/D/Code/nodejs/myblog/views/signin.ejs",
+		"/D/Code/nodejs/myblog/models/users.js",
+		"/D/Code/nodejs/myblog/views/components/nav.ejs",
+		"/D/Code/nodejs/myblog/views/footer.ejs",
+		"/D/Code/nodejs/myblog/views/signup.ejs",
+		"/D/Code/nodejs/myblog/views/components/notification.ejs",
+		"/D/Code/nodejs/myblog/middlewares/check.js",
+		"/D/Code/nodejs/myblog/public/css/style.css",
+		"/D/Code/nodejs/myblog/routes/index.js",
+		"/D/Code/nodejs/myBlog/routes/users.js",
+		"/D/Code/nodejs/myBlog/routes/index.js",
+		"/D/Code/nodejs/myBlog/index.js",
+		"/D/Code/nodejs/myBlog/views/users.ejs",
+		"/D/Code/nodejs/myBlog/views/header.ejs",
+		"/D/Code/nodejs/myBlog/views/footer.ejs",
+		"/D/My/分享/share/charles.md",
+		"/D/My/分享/share/Charles在H5生产验证中的应用.md",
+		"/D/Code/nodejs/REST/server.js",
+		"/D/Code/nodejs/REST/api/controllers/todoListController.js",
+		"/D/Code/nodejs/REST/api/models/todoListModel.js",
+		"/D/Code/nodejs/REST/api/routes/todoListRoutes.js",
+		"/E/Program Files/mongodb/version.json",
+		"/D/My/分享/share/Charles在H5生产验证中的应用.html",
+		"/C/Users/树强/Desktop/myTest.html",
+		"/D/新建文件夹/webank-hj-build/lib/tasks/build.js",
+		"/D/新建文件夹/webank-hj-build/lib/tasks/ui.js",
+		"/D/新建文件夹/webank-hj-build/lib/conf.js",
+		"/D/新建文件夹/webank-hj-cli/README.md",
+		"/D/新建文件夹/webank-hj-cli/lib/argv.js",
+		"/C/Users/树强/.ssh/config",
+		"/C/Users/树强/.ssh/wushq5.pub",
+		"/E/TEC/git_key/id_rsa.pub",
+		"/C/Users/树强/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/树强/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/C/Users/树强/AppData/Local/Temp/360zip$Temp/360$0/zepto.mtimer.js",
+		"/E/Program Files/Sublime Text 3/index.html",
+		"/D/Code/javascript/日期选择器/zepto.mtimer.js",
+		"/D/Code/javascript/日期选择器/demo.html",
+		"/D/My/app/package.json",
+		"/D/Code/angular/amToast/package.json",
+		"/D/My/app/js/app.js",
+		"/C/Users/树强/Desktop/test.js",
+		"/E/Program Files (x86)/Tencent/微信web开发者工具/package.nw/package.json",
+		"/C/Users/树强/Desktop/Test.java",
+		"/D/Code/python/mybolg/blog/admin.py",
+		"/D/Code/python/mybolg/mybolg/urls.py",
+		"/D/Code/python/mybolg/blog/templates/blog/index.html",
+		"/C/Users/树强/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/树强/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/C/Users/树强/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 109.0,
+		"where_history":
+		[
+			"-/dist/*",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"update_homework",
+			"home",
+			"setNavIndex",
+			"sidebarShow",
+			"sidebar",
+			"512rem",
+			"http",
+			"this.time",
+			"open_or_download_app",
+			"more",
+			"welcome",
+			"redcar",
+			"redcarpet",
+			"\n			",
+			"	\n",
+			"\n	",
+			");\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "controllers/teachersCtrl.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4590,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1245,
+								1245
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 399.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config/production.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 122.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/JSHint/JSHint.sublime-build",
+	"project": "old-driver-srv.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"vi",
+				"blog\\views.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
